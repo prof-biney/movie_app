@@ -2,11 +2,7 @@ import { View, Text } from "react-native";
 import React from "react";
 
 const Test = () => {
-  return (
-    <View className="text-blue-500">
-      <Text className="text-blue-500">Test</Text>
-    </View>
-  );
+  return <Text className="text-green-500">Test</Text>;
 };
 
 export default Test;
